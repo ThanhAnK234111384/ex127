@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>710</width>
+    <height>585</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>671</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>440</y>
+      <width>55</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>449</y>
+      <width>671</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 0);</string>
+    </property>
+    <property name="title">
+     <string>Actions:</string>
+    </property>
+    <widget class="QPushButton" name="pushButtonStatistics">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>60</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Statistics</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>C:/Users/ADMIN/Downloads/2849805_pie chart_stats_multimedia_statistics_icon.png</normaloff>C:/Users/ADMIN/Downloads/2849805_pie chart_stats_multimedia_statistics_icon.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonUSD">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>60</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>USD Column</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>C:/Users/ADMIN/Downloads/808649_coin_currency_dollar_finance_usd_icon.png</normaloff>C:/Users/ADMIN/Downloads/808649_coin_currency_dollar_finance_usd_icon.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonDel">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>60</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Delete</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>C:/Users/ADMIN/Downloads/8664938_trash_can_delete_remove_icon.png</normaloff>C:/Users/ADMIN/Downloads/8664938_trash_can_delete_remove_icon.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonAdd">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>10</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Add New Row</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>C:/Users/ADMIN/Downloads/1564491_add_create_new_plus_icon.png</normaloff>C:/Users/ADMIN/Downloads/1564491_add_create_new_plus_icon.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonSort">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>10</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Sort By Price</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>C:/Users/ADMIN/Downloads/4781834_filter_filters_funnel_list_sort_icon.png</normaloff>C:/Users/ADMIN/Downloads/4781834_filter_filters_funnel_list_sort_icon.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonRefresh">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>10</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Refresh Data</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>C:/Users/ADMIN/Downloads/2849811_refresh_arrows_multimedia_media_icon (1).png</normaloff>C:/Users/ADMIN/Downloads/2849811_refresh_arrows_multimedia_media_icon (1).png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonReduce">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>10</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Reduce by Symbol</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>C:/Users/ADMIN/Downloads/9042840_reduce_icon.png</normaloff>C:/Users/ADMIN/Downloads/9042840_reduce_icon.png</iconset>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
