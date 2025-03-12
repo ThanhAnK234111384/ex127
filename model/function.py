@@ -40,15 +40,14 @@ def group_statistics():
     grouped = df.groupby('Group').agg({'Price': ['mean', 'sum', 'count']})
     return grouped
 
-def delete_by_symbol(symbol):
+def delete_by_symbol():
+    symbol = input("Enter Symbol to delete: ").strip()
     global df
-    df = df[df['Symbol'] != symbol]
-    return df
+    if symbol in df['Symbol'].values:
+        df = df[df['Symbol'] != symbol]
+        print(df)
+    else:
+        print("Symbol not found!")
 
 # Test các chức năng
-print_all_data()
-print_sorted_by_price()
-reduce_price_by_half()
-add_new_data()
-group_statistics()
 delete_by_symbol()
